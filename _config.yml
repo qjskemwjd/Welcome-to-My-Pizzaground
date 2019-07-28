@@ -1,0 +1,37 @@
+# Site settings
+title: Welcome To My Pizzaground
+description: "이세상 모든 피자를."
+url: "https://wtpizzaground.com"
+author:
+  name: "Welcome To My Pizzaground"
+  email: "bernard.pizzaground.com"
+  url: "https://wtpizzaground.com"
+
+# Build settings
+baseurl: /
+markdown: kramdown
+permalink: /:title
+paginate: 8
+
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
