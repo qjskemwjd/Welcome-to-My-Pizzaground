@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 피자프랜차이즈를 알아봅시다!
+title: 피자프랜차이즈
 date: 2019-9-01 15:35:00 +09:00
 author: "bernard"
 permalink: /welcome-to-pizza-world/
